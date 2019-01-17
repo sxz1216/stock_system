@@ -135,6 +135,6 @@ class Stock_data_sys():
 if __name__ == '__main__':
     client = Stock_data_sys()
     #client.check_stcok_name('孙轩志')
-    client.get_stock_historydata_csv(False,['上证指数'],'20180220','20180320')
+    client.get_stock_historydata_csv(True)
 
 
